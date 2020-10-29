@@ -1,0 +1,11 @@
+调试版本：
+make clean
+make
+
+发布版本：
+make clean
+make DEBUG=-D_DEBUG_OFF_
+
+发布版本文件包括：
+1、sgg_app
+2、sgg_conf.json

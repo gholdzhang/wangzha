@@ -1,0 +1,28 @@
+{
+	"location":"CLIENT",
+	"udp_send_interval":0,
+	"udp_send_heart_beat":1,
+	"tcp_buff_max_count":128,
+	"udp_buff_max_count":1024,
+	"sgg_multi_lines":100,
+	"sgg_mode":1,
+	"sgg_comm_port":5398,
+	"listen_addr":{
+		"IP":"127.0.0.1",
+		"PORT_BEGIN":5555,
+		"PORT_END":5555,
+		"NET_TYPE":"TCP"},
+	"remote_addr":{
+		"IP":"127.0.0.1",
+		"PORT_BEGIN":6666,
+		"PORT_END":6666,
+		"NET_TYPE":"TCP"},
+	"listen_addr_down":{
+		"IP":"127.0.0.1",
+		"PORT":7777,
+		"NET_TYPE":"TCP"},
+	"remote_addr_down":{
+		"IP":"127.0.0.1",
+		"PORT":8888,
+		"NET_TYPE":"TCP"}		
+}
